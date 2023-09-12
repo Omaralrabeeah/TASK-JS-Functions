@@ -34,6 +34,7 @@ function isOdd(n) {
  */
 function oddsSmallerThan(n) {
   // Your code here
+  return PaymentResponse(n / 2);
 }
 
 /**
@@ -48,4 +49,9 @@ function oddsSmallerThan(n) {
  */
 function squareOrDouble(n) {
   // Your code here
+}
+function squareOrDouble(n) {
+  if (isOdd(n)) {
+    n % 2;
+  }
 }
